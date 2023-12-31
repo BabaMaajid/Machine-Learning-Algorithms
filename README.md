@@ -49,4 +49,9 @@ docker push yourusername/catgif
  - **Run Containers:**
      -  Use the Docker CLI to run containers from the created image: 'docker run -d my-app'
      -  Multiple containers can run concurrently, each encapsulating a specific instance of your application.
+  - **Manage Contianers**
+  - Use Docker CLI commands to mangae contianers
+      - 'docker ps'  - list running containers
+      - 'docker stop'
+      - 'docker start'
 
