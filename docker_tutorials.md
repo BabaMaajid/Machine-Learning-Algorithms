@@ -21,5 +21,5 @@
 -  Additional Components: Docker Volume, Docker Networks, and Docker Compose.
 # Host OS with Docker Engine
 - The host os is the underlying OS on which docker runs.
-- **Docker Engine**: also know as Dockerdaemon, is the sore component of Docker that interacts with the host OS to manage containers.
-- **Docker Engine** : is reponsible for container runtime and provide tools for building, running, and managing containers.
+- **Docker Engine**: also know as Docker daemon, is the core component of Docker that interacts with the host OS to manage containers.
+- **Docker Engine** : is reponsible for container runtime and provides tools for building, running, and managing containers.
