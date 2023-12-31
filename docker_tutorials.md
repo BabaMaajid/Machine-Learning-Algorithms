@@ -19,3 +19,7 @@
 -  Docker containers: Containers are the running instances of docker Images.
 -  Docker Registry: A docker registry is a central repository for storing and distributing Docker Iamges.  Docker hub is the default public resgistryt provided by docker,hosting a vast collection of official and community build images.
 -  Additional Components: Docker Volume, Docker Networks, and Docker Compose.
+# Host OS with Docker Engine
+- The host os is the underlying OS on which docker runs.
+- **Docker Engine**: also know as Dockerdaemon, is the sore component of Docker that interacts with the host OS to manage containers.
+- **Docker Engine** : is reponsible for container runtime and provide tools for building, running, and managing containers.
