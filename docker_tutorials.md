@@ -23,3 +23,6 @@
 - The host os is the underlying OS on which docker runs.
 - **Docker Engine**: also know as Docker daemon, is the core component of Docker that interacts with the host OS to manage containers.
 - **Docker Engine** : is reponsible for container runtime and provides tools for building, running, and managing containers.
+# Docker CLI
+- The docker Command-line Interface(CLI) is a powerful tool for interacting with Docker Engine and Managing containers.
+- Docker CLI provides a wide range of commands to build, run, mange and troublehoot containers effectively.
