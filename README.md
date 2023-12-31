@@ -37,5 +37,16 @@ docker run -p 8888:5000 catgifv2
 docker login
 docker build -t yourusername/catgif .
 docker push yourusername/catgif
+
+
 ```
+## Working with Docker 
+- **Devleop the Application:**
+   - Start by developing your application using your preferred programming language and frameworks.
+- **Containerize the Application**
+   - Create a Dockerfile that specifies the steps to build your application's Docker image.
+   - Use The Docker CLI to build Image : 'docker build -t my-app'.
+ - **Run Containers:**
+     -  Use the Docker CLI to run containers from the created image: 'docker run -d my-app'
+     -  Multiple containers can run concurrently, each encapsulating a specific instance of your application.
 
