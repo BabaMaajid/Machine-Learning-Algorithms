@@ -10,7 +10,7 @@
 # Benifits of Containerization
  - **Portabillity**: Containers are  portable across different systems and platforms
  - **Scalabilty** : Contianrs can be easily scaled horizontally by running multiple instances of the same container across a cluster of machines.
- - **Efficiency**:P Conatiners are lightweight and have minimal overhead comapreds to traditional VMs. they share the same host OS, which reduces resource consumption an allows foir faster startup times.
- - **Consistency**: Contianers ensure consistent behaviour across different environments. Since the entire runtime environment is bundled within the container, there are fewer dependencies or conflicts with the underlying syetm, leading more predictable behavaiour.
+ - **Efficiency**: Conatiners are lightweight and have minimal overhead compared to traditional VMs. they share the same host OS, which reduces resource consumption an allows for faster startup times.
+ - **Consistency**: Contianers ensure consistent behaviour across different environments. Since the entire runtime environment is bundled within the container, there are fewer dependencies or conflicts with the underlying OS, leading more predictable behavaiour.
 - **DevOps Enablement**: Continerization facilitates the adoptation of DevOps practices by providing a standardized and reproducible deployment unit.
 - 
