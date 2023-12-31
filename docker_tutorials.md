@@ -13,4 +13,9 @@
  - **Efficiency**: Conatiners are lightweight and have minimal overhead compared to traditional VMs. they share the same host OS, which reduces resource consumption an allows for faster startup times.
  - **Consistency**: Contianers ensure consistent behaviour across different environments. Since the entire runtime environment is bundled within the container, there are fewer dependencies or conflicts with the underlying OS, leading more predictable behavaiour.
 - **DevOps Enablement**: Continerization facilitates the adoptation of DevOps practices by providing a standardized and reproducible deployment unit.
-- 
+# Docker Architecture
+-  Docker engine: At the core of Docker Architetture is the docker Engine. It is reponsible for building, and managinh containers.
+-  Docker Image : Docker Images are the building blocks of containers. An image is readonly templat that contains the necessry files, libraries and dependencies required to run application.
+-  Docker containers: Containers are the running instances of docker Images.
+-  Docker Registry: A docker registry is a central repository for storing and distributing Docker Iamges.  Docker hub is the default public resgistryt provided by docker,hosting a vast collection of official and community build images.
+-  Additional Components: Docker Volume, Docker Networks, and Docker Compose.
